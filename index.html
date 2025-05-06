@@ -283,7 +283,7 @@
       synth.speak(utterance);
 
       statusDisplay.classList.add("playing");
-      updateStatus(`正在播放：${word}（第 ${currentIndex + 1} 个）`);
+      updateStatus(`正在播放：第 ${currentIndex + 1}/${words.length} 个`);
     }
 
     // 上一个单词
